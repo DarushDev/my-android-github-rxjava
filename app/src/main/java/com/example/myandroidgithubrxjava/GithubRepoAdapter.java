@@ -80,7 +80,7 @@ public class GithubRepoAdapter extends BaseAdapter {
             textRepoName.setText(githubRepo.name);
             textRepoDescription.setText(githubRepo.description);
             textLanguage.setText("Language: " + githubRepo.language);
-            textStars.setText("Stars: " + githubRepo.starGazersCount);
+            textStars.setText("Stars: " + githubRepo.stargazersCount);
         }
     }
 }

@@ -11,7 +11,7 @@ public class GithubRepo {
     public final String htmlUrl;
     public final String description;
     public final String language;
-    public final int starGazersCount;
+    public final int stargazersCount;
 
     public GithubRepo(int id, String name, String htmlUrl, String description, String language, int starGazersCount) {
         this.id = id;
@@ -19,6 +19,6 @@ public class GithubRepo {
         this.htmlUrl = htmlUrl;
         this.description = description;
         this.language = language;
-        this.starGazersCount = starGazersCount;
+        this.stargazersCount = starGazersCount;
     }
 }
